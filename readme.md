@@ -69,7 +69,7 @@ Beyond the famous import antigravity (which opens an XKCD comic), there is a geo
 
 #### For example:
 
-```
+```python
 >>> from antigravity import geohash
 >>> geohash(37.421542, -122.085589, b'2005-05-26-10458.68')
 ```
@@ -78,7 +78,7 @@ This uses the XKCD “geohashing” algorithm to compute a latitude/longitude fr
 
 ### Expected output:
 
-```
+```python
 37.857713 -122.544543
 ```
 
@@ -114,7 +114,7 @@ This cute module simply greets you. On import, `__hello__` prints `Hello world!`
 
 ### Expected output:
 
-```
+```pyton
 Hello world!
 ```
 
@@ -149,7 +149,7 @@ This uses the ROT13 codec (a simple letter-substitution cipher) built into Pytho
 
 #### For example:
 
-```
+```python
 >>> print(codecs.encode("Hello, World!", "rot-13"))
 ```
 
@@ -259,7 +259,7 @@ CPython caches small integers (by default, all integers from -5 to 256) for perf
 
 ### Expected output:
 
-```
+```python
 True
 False
 ```
@@ -309,7 +309,7 @@ If you inspect the help for types.CodeType (the built‑in code object type), yo
 
 #### For example:
 
-```
+```python
 >>> import types
 >>> help(types.CodeType)
 Help on class code in module builtins:
@@ -328,7 +328,7 @@ In CPython the hash of positive infinity is a fun number.
 
 #### For example:
 
-```
+```python
 >>> import math
 >>> hash(float('inf'))
 314159
@@ -354,7 +354,7 @@ This behavior exists to clearly signal undefined or invalid numeric results and 
 
 ### Expected output:
 
-```
+```python
 False
 ```
 
@@ -362,7 +362,7 @@ False
 
 Once NaN appears, it spreads:
 
-```
+```python
 >>> x + 10
 nan
 
@@ -375,7 +375,7 @@ nan
 
 --------
 
-Notes & Trivia: Python’s playful culture is full of such references. For example, the language is named after Monty Python’s Flying Circus, not snakes. The Zen’s missing 20th line and the phrase “unless you’re Dutch” cheekily nod to Guido van Rossum. PEP 404 jokingly notes that “there will never be a Python 4”, cementing Python 3 as “the brand.” Enjoy sharing these Easter eggs – they’re a bit of Python lore that remind us the language is built by and for humans who love humor.
+***Notes & Trivia:*** Python’s playful culture is full of such references. For example, the language is named after Monty Python’s Flying Circus, not snakes. The Zen’s missing 20th line and the phrase “unless you’re Dutch” cheekily nod to Guido van Rossum. PEP 404 jokingly notes that “there will never be a Python 4”, cementing Python 3 as “the brand.” Enjoy sharing these Easter eggs – they’re a bit of Python lore that remind us the language is built by and for humans who love humor.
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%" />
