@@ -389,4 +389,4 @@ nan
   ⭐ IF YOU ENJOYED THIS COLLECTION, CONSIDER STARRING THE REPOSITORY! ⭐
 </h3>
 
-Your support helps keep the project alive and encourages more fun contributions!
+<p align="center">Your support helps keep the project alive and encourages more fun contributions!</p>
